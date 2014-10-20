@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+         <record id="form_anddes_budget" model="ir.ui.view">
+            <field name="name">anddes.budget.form</field>
+            <field name="model">anddes.budget</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="anddes_final.form_budget"/>
+            <field name="arch" type="xml">
+                <header>
+                    <button name="print_report" string="Consolidado" type="object" class="oe_highlight"/>
+                </header>
+            </field>
+        </record>
+
+    </data>
+</openerp>
